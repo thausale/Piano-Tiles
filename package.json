@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "randomcolor": "^0.6.2"
+  },
+  "name": "piano-tiles",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start" : "vite"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thausale/Piano-Tiles.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thausale/Piano-Tiles/issues"
+  },
+  "homepage": "https://github.com/thausale/Piano-Tiles#readme"
+}

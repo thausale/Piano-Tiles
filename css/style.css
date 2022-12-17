@@ -1,0 +1,26 @@
+@import url(reset.css);
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+    transition: all 200ms;
+}
+
+
+
+.tile {
+    background-color: red;
+    width: 60px;
+    height: 200px;
+    border: 2px solid white;
+    margin: -2px 10px 10px 10px;
+    transition: all 200ms;
+}
+
+
+
+.active {
+    height: 400px;
+}
