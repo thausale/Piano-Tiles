@@ -8,7 +8,10 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "start" : "vite"
+    "start" : "vite",
+    "build" : "vite build",
+    "preview" : "vite preview",
+    "push" : "surge ./dist piano_tiles_niels.surge.sh"
 
   },
   "repository": {

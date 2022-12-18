@@ -2,7 +2,7 @@ import randomColor from "randomcolor";
 
 export class Tile {
   constructor() {
-    console.log("test");
+    // console.log("test");
     this.ref = this.init();
     this.styling();
   }

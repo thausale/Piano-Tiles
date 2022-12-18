@@ -10,8 +10,8 @@ document.body.onkeyup = function (e) {
 
     teller++;
     intervalCounter = -1;
-    console.log(teller);
-    console.log(tiles);
+    // console.log(teller);
+    // console.log(tiles);
 
     /*Removing the active class on keyboard down*/
     tiles.forEach((tiles) => tiles.ref.classList.remove("active"));
@@ -29,7 +29,7 @@ setInterval(function () {
     let color = tiles[intervalCounter].ref.attributes.style.nodeValue
       .substring(18)
       .slice(0, -1);
-    console.log(color);
+    // console.log(color);
     tiles[intervalCounter].ref.classList.add("active");
     document.body.style.backgroundColor = color;
   }
