@@ -1,4 +1,5 @@
 import { Tile } from "./tile";
+import "../css/style.scss";
 
 let teller = 0;
 let intervalCounter = 0;

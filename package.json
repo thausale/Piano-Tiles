@@ -6,13 +6,14 @@
   "description": "",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "sass": "^1.57.1"
+  },
   "scripts": {
-    "start" : "vite",
-    "build" : "vite build",
-    "preview" : "vite preview",
-    "push" : "surge ./dist piano_tiles_niels.surge.sh"
-
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "push": "surge ./dist piano_tiles_niels.surge.sh"
   },
   "repository": {
     "type": "git",

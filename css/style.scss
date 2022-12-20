@@ -17,10 +17,11 @@ body {
     border: 2px solid white;
     margin: -2px 10px 10px 10px;
     transition: all 200ms;
+
+    & .active {
+        height: 400px;
+    }
 }
 
 
 
-.active {
-    height: 400px;
-}
