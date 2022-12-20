@@ -1,7 +1,7 @@
 import { Tile } from "./tile";
 
 let teller = 0;
-export let intervalCounter = 0;
+let intervalCounter = 0;
 const tiles = [];
 
 document.body.onkeyup = function (e) {
