@@ -20,5 +20,6 @@ export class Tile {
 /* propere code:
 
 this.color = randomcolor();
+dan kan je in de index.js tiles[0].color opvragen. 
 
 */
