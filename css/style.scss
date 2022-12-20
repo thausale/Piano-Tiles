@@ -18,7 +18,7 @@ body {
     margin: -2px 10px 10px 10px;
     transition: all 200ms;
 
-    & .active {
+    &.active {
         height: 400px;
     }
 }
