@@ -1,8 +1,8 @@
 import { Tile } from "./tile";
 
 let teller = 0;
+export let intervalCounter = 0;
 const tiles = [];
-let intervalCounter = 0;
 
 document.body.onkeyup = function (e) {
   if (e.key == " " || e.code == "Space" || e.keyCode == 32) {
@@ -10,8 +10,6 @@ document.body.onkeyup = function (e) {
 
     teller++;
     intervalCounter = -1;
-    // console.log(teller);
-    // console.log(tiles);
 
     /*Removing the active class on keyboard down*/
     tiles.forEach((tiles) => tiles.ref.classList.remove("active"));
@@ -29,7 +27,6 @@ setInterval(function () {
     let color = tiles[intervalCounter].ref.attributes.style.nodeValue
       .substring(18)
       .slice(0, -1);
-    // console.log(color);
     tiles[intervalCounter].ref.classList.add("active");
     document.body.style.backgroundColor = color;
   }
