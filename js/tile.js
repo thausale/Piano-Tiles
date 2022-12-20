@@ -16,3 +16,9 @@ export class Tile {
     this.ref.style.backgroundColor = randomColor();
   }
 }
+
+/* propere code:
+
+this.color = randomcolor();
+
+*/
